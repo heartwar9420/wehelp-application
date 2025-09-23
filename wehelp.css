@@ -1,0 +1,36 @@
+/* 標籤名稱選擇器 */
+body{
+    font-family: "Microsoft JhengHei", "PingFang TC", "Noto Sans TC", sans-serif;;
+    background-color:rgb(255, 255, 255);
+    margin: 0;
+    }
+/* class  選擇器 */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color:#333333;
+    background-color: #48C9B0;
+    font-size:36px;
+    font-weight: bold;
+    height:120px;
+    line-height: 1;
+}
+.question{
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    font-size:28px;
+    font-weight: bold;
+    background-color: #E8F6F3;
+    color: #154360;
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.answer{
+    color:black;
+    font-size:24px;
+}
